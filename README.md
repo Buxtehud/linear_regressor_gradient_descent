@@ -45,7 +45,7 @@ We know for sure that our loss function
 
 $$L(b,m) = \sum_{i=0}^{n} [\hat{y}_i - (b + mx_i)]^2$$
 
-has a minimum because is a quadratic equation and the coefficient of his higher order term is possitive.
+has a minimum because is convex.
 
 So, we need to find where his gradient is zero.
 
